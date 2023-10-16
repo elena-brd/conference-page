@@ -1,0 +1,54 @@
+@media(max-width: 700px) {
+
+   #main-header {
+      border-bottom: 2px solid #e7e7e7;
+
+      .header-content {
+         display: block;
+         margin: 0.1rem 0;
+         text-align: center;
+         padding: 1.3rem 0;
+
+      }
+
+      .navbar {
+         ul {
+            display: block;
+            text-align: center;
+         }
+
+         li {
+            margin: 0.5rem 0;
+         }
+      }
+
+      .login {
+         display: block;
+
+         div {
+            margin: 0.8rem 0 1.5rem;
+         }
+
+         .current-bg-hover {
+            padding: 0.5rem 2rem;
+         }
+      }
+   }
+
+   .tags {
+      .container {
+         display: flex;
+         justify-content: center;
+         text-align: center;
+         align-items: center;
+      }
+   }
+
+   .content {
+      margin: 2rem 0;
+
+      .container {
+         display: block;
+      }
+   }
+}
